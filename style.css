@@ -1,0 +1,239 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #149414;
+  background-color: black;
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background-color: black;
+  color: #149414;
+  border-bottom: 1px solid #149414;
+  font-size: 25px;
+}
+
+.header p {
+  font-size: 18px;
+}
+
+.totalNumber {
+  display: block;
+  border-bottom: 1px solid #149414;
+}
+
+.totalNumber p {
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+}
+
+.totalNumber span {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 36px;
+}
+
+.totalNew {
+  display: block;
+  border-bottom: 1px solid #149414;
+}
+
+.totalNew p {
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+}
+
+.totalNew span {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 36px;
+}
+
+.footer {
+  position: fixed;
+  margin: auto;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  border-radius: 1px solid black;
+}
+
+a {
+  color: #149414;
+  text-decoration: underline;
+  padding: 5px;
+}
+
+a:hover {
+  color: #149414;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button {
+  border: 1px solid black;
+  width: 90%;
+  height: 50px;
+  margin: 15px;
+}
+
+.search {
+  width: 90%;
+  height: 40px;
+}
+
+form {
+  font-size: 24px;
+  display: block;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.countryInfo {
+  display: block;
+  border-bottom: 1px solid #149414;
+}
+
+.countryInfo p {
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+}
+
+.countryInfo span {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 36px;
+}
+/*Desktop View*/
+@media (min-width: 48em) {
+
+  .both{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+  }
+
+  .totalNumber {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .totalNumber span{
+    font-size: 90px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .totalNumber p {
+    justify-content: center;
+    text-align: center;
+    font-size: 48px;
+  }
+
+  .totalNew {
+    display: block;
+    border-bottom: 1px solid #149414;
+  }
+
+  .totalNew p {
+    justify-content: center;
+    text-align: center;
+    font-size: 48px;
+  }
+
+  .totalNew span {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 90px;
+  }
+
+  .countryInfo {
+    display: block;
+    border-bottom: 1px solid #149414;
+  }
+
+  .countryInfo p {
+    justify-content: center;
+    text-align: center;
+    font-size: 48px;
+  }
+
+  .countryInfo span {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 90px;
+  }
+
+  .footer {
+    position: fixed;
+    margin: auto;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    border-radius: 1px solid black;
+    font-size: 20px;
+  }
+
+  .header {
+    padding: 60px;
+    text-align: center;
+    background-color: black;
+    color: #149414;
+    border-bottom: 1px solid #149414;
+    font-size: 30px;
+  }
+
+  .header p {
+    font-size: 24px;
+  }
+
+  .header br {
+    content: ' ';
+  }
+
+  .searchLink {
+  display: inline-block;
+  }
+
+  .apiLink {
+    display: inline-block;
+  }
+
+  .vLine {
+    border-left: 6px solid green;
+    height: 800px;
+    margin: 40px;
+  }
+
+  .button {
+    border: 1px solid black;
+    width: 50%;
+    height: 50px;
+    margin: 15px;
+    font-size: 24px;
+  }
+
+  .search {
+    text-align: center;
+    width: 60%;
+    height: 40px;
+  }
+
+  label {
+    font-size: 48px;
+  }
+
+}
